@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Био</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="welcome-screen" class="centered">
+    <span class="enter-text">click to enter...</span>
+  </div>
+  <div id="profile-screen" class="hidden">
+    <canvas id="stars-bg"></canvas>
+    <div class="profile-content">
+      <div class="avatar"></div>
+      <h1 class="nickname">dnkz9</h1>
+      <p class="status">I'm tired inside your body</p>
+      <div class="location"> <span>USA</span> </div>
+      <div class="socials">
+        <a href="https://t.me/discordxivivide" class="tg" title="Telegram" target="_blank" rel="noopener"></a>
+        <a href="https://www.youtube.com/@dnkz9" class="yt" title="YouTube" target="_blank" rel="noopener"></a>
+        <a href="https://discord.gg/dsHzgZq9sT" class="ds" title="Discord сервер" target="_blank" rel="noopener"></a>
+      </div>
+      <div class="views">
+        <span class="eye">👁️</span> <span class="count">...</span>
+      </div>
+      <div class="volume-control">
+        <span id="volume-icon" class="volume-icon"></span>
+        <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.7">
+      </div>
+    </div>
+  </div>
+  <audio id="profile-audio" src="music/OBLADAET - Осколок.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
